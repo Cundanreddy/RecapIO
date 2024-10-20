@@ -152,7 +152,7 @@
             "outputFile": "com.example.recapio.app-merged_res-27:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\CUNDAN\\projects\\recapio\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\CUNDAN\\projects\\RecapIO\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -1158,24 +1158,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cunda\\.gradle\\caches\\transforms-3\\aecaa94fd3010ebbc81c2fe40f782abe\\transformed\\jetified-activity-1.8.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,59",
-                        "endOffsets": "92,152"
-                    },
-                    "to": {
-                        "startLines": "129,148",
-                        "startColumns": "4,4",
-                        "startOffsets": "6367,7376",
-                        "endColumns": "41,59",
-                        "endOffsets": "6404,7431"
-                    }
-                },
-                {
-                    "source": "D:\\CUNDAN\\projects\\recapio\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\CUNDAN\\projects\\RecapIO\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -1191,6 +1174,23 @@
                         "endLines": "166,169",
                         "endColumns": "12,12",
                         "endOffsets": "8575,8744"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\cunda\\.gradle\\caches\\transforms-3\\aecaa94fd3010ebbc81c2fe40f782abe\\transformed\\jetified-activity-1.8.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,59",
+                        "endOffsets": "92,152"
+                    },
+                    "to": {
+                        "startLines": "129,148",
+                        "startColumns": "4,4",
+                        "startOffsets": "6367,7376",
+                        "endColumns": "41,59",
+                        "endOffsets": "6404,7431"
                     }
                 }
             ]

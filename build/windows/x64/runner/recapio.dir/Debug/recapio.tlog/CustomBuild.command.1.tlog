@@ -1,0 +1,10 @@
+^D:\CUNDAN\PROJECTS\RECAPIO\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"D:\CUNDAN\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CUNDAN/projects/RecapIO/windows -BD:/CUNDAN/projects/RecapIO/build/windows/x64 --check-stamp-file D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

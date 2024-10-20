@@ -1,14 +1,14 @@
-#Sat Oct 19 21:28:18 IST 2024
-base.0=D\:\\CUNDAN\\projects\\recapio\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\CUNDAN\\projects\\recapio\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\CUNDAN\\projects\\recapio\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.3=D\:\\CUNDAN\\projects\\recapio\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.4=D\:\\CUNDAN\\projects\\recapio\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+#Sun Oct 20 16:03:05 IST 2024
+base.0=D\:\\CUNDAN\\projects\\RecapIO\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\CUNDAN\\projects\\RecapIO\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=D\:\\CUNDAN\\projects\\RecapIO\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=D\:\\CUNDAN\\projects\\RecapIO\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=D\:\\CUNDAN\\projects\\RecapIO\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=1/classes.dex
-path.3=6/classes.dex
-path.4=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+path.4=6/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex

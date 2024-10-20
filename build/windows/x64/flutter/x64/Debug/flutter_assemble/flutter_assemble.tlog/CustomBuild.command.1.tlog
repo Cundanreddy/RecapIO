@@ -1,0 +1,28 @@
+^D:\CUNDAN\PROJECTS\RECAPIO\BUILD\WINDOWS\X64\CMAKEFILES\0A31D4CAC13BC76F397FAA268392E717\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"D:\CUNDAN\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\CUNDAN\projects\flutter PROJECT_DIR=D:\CUNDAN\projects\RecapIO FLUTTER_ROOT=D:\CUNDAN\projects\flutter FLUTTER_EPHEMERAL_DIR=D:\CUNDAN\projects\RecapIO\windows\flutter\ephemeral PROJECT_DIR=D:\CUNDAN\projects\RecapIO FLUTTER_TARGET=D:\CUNDAN\projects\RecapIO\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\CUNDAN\projects\RecapIO\.dart_tool\package_config.json D:/CUNDAN/projects/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CUNDAN\PROJECTS\RECAPIO\BUILD\WINDOWS\X64\CMAKEFILES\8162184AF30B8B2BE0D8414F67F0AF63\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CUNDAN\PROJECTS\RECAPIO\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"D:\CUNDAN\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CUNDAN/projects/RecapIO/windows -BD:/CUNDAN/projects/RecapIO/build/windows/x64 --check-stamp-file D:/CUNDAN/projects/RecapIO/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

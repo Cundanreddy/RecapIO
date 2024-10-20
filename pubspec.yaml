@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # speech_to_text: ^5.6.0 # For speech recognition
+  speech_to_text: ^7.0.0 # For speech recognition
   flutter_local_notifications: ^17.2.3 # For notifications
   # sqflite: ^2.2.5+1 # For local database storage
   provider: ^6.1.2 # For state management

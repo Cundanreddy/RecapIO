@@ -1,0 +1,12 @@
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/icudtl.dat
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/flutter_windows.dll
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/CUNDAN/projects/RecapIO/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

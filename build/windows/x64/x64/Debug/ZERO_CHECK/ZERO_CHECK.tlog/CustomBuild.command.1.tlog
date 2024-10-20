@@ -1,0 +1,10 @@
+^D:\CUNDAN\PROJECTS\RECAPIO\BUILD\WINDOWS\X64\CMAKEFILES\F97DD29630E3AB79D16A9D3AFAD19EB4\GENERATE.STAMP.RULE
+setlocal
+"D:\CUNDAN\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CUNDAN/projects/RecapIO/windows -BD:/CUNDAN/projects/RecapIO/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CUNDAN/projects/RecapIO/build/windows/x64/recapio.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
