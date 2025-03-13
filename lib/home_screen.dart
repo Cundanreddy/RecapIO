@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'transcription_provider.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -22,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     _speech = stt.SpeechToText();
   }
+
   @override
   void dispose() {
     _speech.cancel();
@@ -47,7 +47,8 @@ class _HomeScreenState extends State<HomeScreen> {
             // Display the Transcription using Provider
             Expanded(
               child: Container(
-                // margin: EdgeInsets.all(50),
+                width: double
+                    .infinity, // Make the container take all the available width
                 padding: const EdgeInsets.all(12.0),
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
@@ -63,12 +64,11 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const SizedBox(height: 20),
             // Start/Stop Recording Button
-            ElevatedButton.icon (
+            ElevatedButton.icon(
               onPressed: _toggleListening,
               icon: Icon(_isListening ? Icons.mic : Icons.mic_off),
-              
               label: Text(_isListening ? "Stop Listening" : "Start Listening"),
-            )
+            ),
           ],
         ),
       ),
@@ -82,33 +82,35 @@ class _HomeScreenState extends State<HomeScreen> {
       _startListening();
     }
   }
+
   void _startListening() async {
     bool available = await _speech.initialize(
-      onStatus: (val) =>_onSpeechStatus(val),//print('onStatus:$val'),
+      onStatus: (val) => _onSpeechStatus(val), //print('onStatus:$val'),
       onError: (val) => print('onError: $val'),
-      
     );
-
     if (available) {
       setState(() => _isListening = true);
       _speech.listen(
         listenFor: Duration(seconds: 500), // Adjust as needed
-        pauseFor: Duration(seconds: 50),   // Adjust as needed
-        
+        pauseFor: Duration(seconds: 50), // Adjust as needed
         onResult: (val) => setState(() {
           _transcription += val.recognizedWords;
           _confidence = val.confidence;
-          context.read<TranscriptionProvider>().updateTranscription(_transcription);
+          context
+              .read<TranscriptionProvider>()
+              .updateTranscription(_transcription);
         }),
       );
     }
   }
+
   void _stopListening() {
     _speech.stop();
     setState(() => _isListening = false);
   }
+
   void _onSpeechStatus(String status) {
-    if ((status == "notListening" || status=="done") && _isListening) {
+    if ((status == "notListening" || status == "done") && _isListening) {
       // Restart listening if it stops due to silence
       _startListening();
     }
